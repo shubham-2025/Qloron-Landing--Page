@@ -1,0 +1,24 @@
+/* Make nav arrows match color palette */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #00BBA7;
+  top: 45%;
+  width: 35px;
+  height: 35px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Style pagination dots */
+.swiper-pagination-bullet {
+  background-color: #a0ded7;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #00BBA7;
+}
